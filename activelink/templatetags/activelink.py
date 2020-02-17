@@ -1,6 +1,6 @@
 from django import VERSION as DJANGO_VERSION
+from django.urls import NoReverseMatch
 from django.template import Library, Node, NodeList, VariableDoesNotExist
-from django.core.urlresolvers import NoReverseMatch
 from django.template.defaulttags import TemplateIfParser
 
 if DJANGO_VERSION < (1, 5):
